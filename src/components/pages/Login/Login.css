@@ -1,0 +1,71 @@
+.form-inner{
+    height: 50vh;
+    width: 30vw;
+    background-color:#171d31 ;
+    padding: 30px 40px;
+    border-radius: 10px;
+    color: #fff;
+    /* text-align: center; */
+}
+.form-group{
+    min-height: 50px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 5%;
+}
+.inputs{
+    height: 40px;
+    width: 300px;
+}
+.header-x{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.btn-div{
+    text-align: center;
+}
+.btn-login{
+    background: linear-gradient(
+        90deg,
+        rgba(93, 12, 255, 1) 0%,
+        rgba(155, 0, 250, 1) 100%
+      );
+    padding: 10px 20px ;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 0px;
+    font-size: 20px;
+    color: rgb(214, 214, 214);
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 160px;
+    border: 1px solid #fff;
+}
+.btn-logout{
+    background: linear-gradient(
+        90deg,
+        rgba(93, 12, 255, 1) 0%,
+        rgba(155, 0, 250, 1) 100%
+      );
+    padding: 10px 20px ;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 0px;
+    font-size: 20px;
+    color: rgb(214, 214, 214);
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 160px;
+    border: 1px solid #fff;
+}
+.welcome{
+    text-align: center;
+}
+.error{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    margin-bottom: 5%;
+}

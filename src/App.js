@@ -5,6 +5,7 @@ import Home from './components/pages/Home/Home';
 import Tour_Home from './components/pages/Tours-app/Tours_Home';
 import Review_Home from './components/pages/Reviews/Review_Home';
 import Todo_Home from './components/pages/ToDo-app/Todo_Home'
+import Login from './components/pages/Login/Login';
 
 export default function App() {
 
@@ -16,6 +17,7 @@ export default function App() {
 				<Route path='/tours' exact component={Tour_Home}/>
 				<Route path='/reviews' exact component={Review_Home}/>
 				<Route path='/todo' exact component={Todo_Home}/>
+				<Route path='/login' exact component={Login}/>
 
 
 			</Switch>

@@ -34,6 +34,9 @@ function LoginForm({Login,error}) {
                 <input className="btn-login"  type="submit" value="Login"/>
                 </div>
             </div>
+            <div className="back-container">
+    <Link to='/'> <button className="button-back">Back</button></Link>
+    </div>
         </form>
     )
 }

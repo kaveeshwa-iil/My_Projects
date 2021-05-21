@@ -1,0 +1,38 @@
+.container--main{
+    height: 50vh;
+    background-color:#171d31 ;
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 60vW;
+}
+.headline{
+   text-align: center;
+   font-size: 42px;
+
+}
+.container--main .button--container{
+    /* margin-top: 50%; */
+    text-align: center;
+    margin-top: 20%;
+}
+.home-buttons{
+    background: linear-gradient(
+        90deg,
+        rgba(93, 12, 255, 1) 0%,
+        rgba(155, 0, 250, 1) 100%
+      );
+    padding: 10px 20px ;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 0px;
+    font-size: 20px;
+    color: rgb(214, 214, 214);
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 160px;
+    border: 1px solid #fff;
+}
+.home-buttons:hover{
+    color: rgb(255, 255, 255);
+}
